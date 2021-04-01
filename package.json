@@ -1,0 +1,19 @@
+{
+  "name": "candidate-test",
+  "description": "Doctolib developer test.",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "knex": "^0.21.15",
+    "sqlite3": "^5.0.1"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
