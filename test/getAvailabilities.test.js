@@ -15,7 +15,7 @@ describe("getAvailabilities", () => {
       availabilities = await getAvailabilities(new Date("2020-01-01"));
     });
 
-    it("returns an Object", () => {
+    it.only("returns an Object", () => {
       expect(typeof availabilities === "object").toBe(true);
       expect(Array.isArray(availabilities)).toBe(false);
     });
